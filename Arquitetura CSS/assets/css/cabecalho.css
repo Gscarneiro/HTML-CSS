@@ -1,0 +1,21 @@
+.cabecalho {
+	align-items: center; /*alinha os itens ao centro*/
+	background: #f9f9f9; /*muda a cor do fundo*/
+	display: flex; /*transforma em bloco flex*/
+	justify-content: space-between; /*coloca espaço entre os filhos*/
+	padding: 0 2rem; /*espaçamento interno: 0 cima e baixo e 2rem direita esquerda*/
+}
+
+@media screen and (min-width: 0) {
+	.cabecalho {
+		justify-content: center;
+		padding: 0 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.cabecalho {
+		padding: 0 5rem;
+		justify-content: space-between;
+	}
+}

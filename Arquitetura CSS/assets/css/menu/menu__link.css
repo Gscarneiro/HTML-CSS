@@ -1,0 +1,15 @@
+.menu__link {
+	color: #808080; /*muda a cor da letra*/
+	margin-right: 1.25rem; /*colo margem a direita*/
+	text-decoration: none; /*tira a decoração de link*/
+	text-transform: lowercase; /*deixa em minúsculo*/
+}
+
+.menu__link--ativo {
+	color: #333333; /*Muda a cor quando for o item selecionado*/
+	font-weight: bold; /*Deixa a fonte em negrito*/
+}
+
+.menu__link:hover {
+	text-decoration: underline;
+}
